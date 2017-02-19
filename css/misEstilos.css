@@ -1,0 +1,58 @@
+
+#menuTop{
+	border-bottom: 1px solid white;
+	display: inline-flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#enlacesMenuTop{
+	height: 50px;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+
+.circular{
+	width: 50px;
+	border-radius: 50%;
+}
+
+
+nav.navbar{
+	min-height: 400px;
+	background-image: url("../img/divider1.jpg");
+	background-color: rgba(188, 186, 186,1);
+
+}
+
+nav.navbar div.anchoTotal{
+	width:100%;
+}
+nav ul.nav-justified li a{
+	color: white;
+	font-weight: bold;
+}
+
+
+
+@media (min-width: 768px){
+	.nav-flex-center{
+	display: flex;
+	justify-content: center;
+	}
+}
+
+/****** logo *****/
+#logo{
+	position: relative;
+	top: 20px;
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+}
+
+/******* div debajo del menu*****************/
+

@@ -1,0 +1,97 @@
+
+#menuSuperior{
+	display: inline-flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 10px 0px;
+}
+#navTop{
+	background-color: rgba(144, 9, 55,0.9);
+	color: white;
+}
+
+
+#navbar{
+	text-align: center;
+	border-top: 2px solid white;
+}
+
+#headerWrap{
+	background-image: url("../img/divider1.jpg");
+	background-size: cover;
+	min-height: 350px;
+	margin-top: 0px;
+}
+
+.mycontainer{
+	width: 90%;
+	margin:0 auto;
+}
+
+/******************* Final estilos menÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âº superior ************/
+
+#div2{
+	margin-bottom: 30px;
+	margin-top: 39px;
+}
+.colorLogo{
+	color: rgb(150, 19, 58);
+	
+}
+
+.cursiva{text-align: center;
+	font-style: italic;
+	letter-spacing: 3px;
+	line-height: 1.2;
+}
+.negrita{
+	font-weight: bold;
+}
+
+/* *************  Final estilos texto principal ***************/
+
+#div3{
+	background-image: url("../img/captura.png");
+	min-height: 350px;
+	width:100%;
+	border-top: 20px solid rgb(150, 19, 58);
+}
+
+/****** Final estilos div3 *********************/
+
+#div4{
+	text-align: center;
+}
+
+#div4 p{
+	padding: 10px;
+	font-size: 1.5em;
+}
+
+/****** Final estilos div4 *********************/
+
+#div5{
+	border-top: 20px solid rgb(150, 19, 58);
+	min-height: 350px;
+	background-color: gray;
+}
+
+/****** Final estilos div5 *********************/
+
+#div6{
+	text-align: center;
+}
+
+#div6 p{
+	padding: 10px;
+	font-size: 1.5em;
+}
+/****** Final estilos div6 *********************/
+
+#div7{
+	background-image: url("../img/captura2.png");
+	min-height: 350px;
+	background-size: cover;
+	
+	border-top: 20px solid rgb(150, 19, 58);
+}
