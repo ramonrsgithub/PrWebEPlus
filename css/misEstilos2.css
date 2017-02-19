@@ -28,7 +28,7 @@
 	margin:0 auto;
 }
 
-/******************* Final estilos menÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Âº superior ************/
+/******************* Final estilos menu superior ************/
 
 #div2{
 	margin-bottom: 30px;
@@ -52,6 +52,7 @@
 
 #div3{
 	background-image: url("../img/captura.png");
+	background-size: 100% 100%;
 	min-height: 350px;
 	width:100%;
 	border-top: 20px solid rgb(150, 19, 58);
@@ -89,9 +90,64 @@
 /****** Final estilos div6 *********************/
 
 #div7{
+	
+	background-image: none;
+	min-height: 0px;
+	border-top: 20px solid rgb(150, 19, 58);
+}
+
+@media (min-width: 768px) {
+	#div7{
 	background-image: url("../img/captura2.png");
 	min-height: 350px;
 	background-size: cover;
-	
-	border-top: 20px solid rgb(150, 19, 58);
+	}
+}
+
+/****** Final estilos div7 *********************/
+
+#div8{
+	background-color: rgb(150, 19, 58); 
+	text-align: center;
+
+}
+
+#div8 h1{
+	font-size: 3.2em;
+	color:white;
+	font-style: italic;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+/****** Final estilos div8 *********************/
+#div9 h2{
+	color: rgb(150,19,58);
+}
+#div9 img{
+	max-width: 100%;
+}
+
+/****** Final estilos div9 *********************/
+
+#div10{
+	min-height: 0px;
+	background-image: none;
+	/*border-top: 20px solid rgb(150, 19, 58);*/
+}
+
+@media (min-width: 768px) {
+	#div10{
+	background-image: url("../img/Captura16.png");
+	min-height: 350px;
+	background-size: 100% 100%;
+	}
+}
+
+/****** Final estilos div9 *********************/
+#div11 img{
+	max-width: 40%;
+}
+#a{
+	text-align: center;
 }
